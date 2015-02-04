@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+      <meta content="utf-8" http-equiv="encoding">
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1">	
+      <link rel="stylesheet" href="css/index.css">
+
+      <!-- Mapbox JS & CSS -->
+      <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+			<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+			<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+			
+			<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+			<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/Leaflet.fullscreen.min.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.4/leaflet.fullscreen.css' rel='stylesheet' />
+
+      <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js"></script>
+
+      <!-- JQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Font Icons -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+
+  <body bgcolor="#ecf0f1">
+    <nav>
+    	<div id="menu">CitySpot <i class="fa fa-bars">&nbsp;</i></div>
+  		<ul>	
+    		<li><a href="#">Home <i class="fa fa-home"></i></a></li>
+				<li><a href="#" id="locate">Locate <i class="fa fa-location-arrow"></i></a></li>
+        <li><a href="#">Discover <i class="fa fa-paper-plane"></i></a></li>
+        <li><a href="#">Time <i class="fa fa-clock-o"></i></a></li>
+      </ul>
+    </nav>
+		
+    <div id="map"></div>
+  </body>
+
+  <footer>
+  	<script src="js/city.js"></script>
+  </footer>
+</html>

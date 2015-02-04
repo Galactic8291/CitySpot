@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="css/index.css">
+
+      <!-- Mapbox JS & CSS -->
+      <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+			<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
+			<link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
+
+      <!-- JQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Font Icons -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+
+  <body bgcolor="#ecf0f1">
+    <nav>
+    	<div id="menu">CitySpot <i class="fa fa-bars fa-fw">&nbsp;</i></div>
+  		<ul>	
+    		<li><a href="#">Home <i class="fa fa-home fa-fw"></i></a></li>
+				<li><a href="#">About <i class="fa fa-info-circle fa-fw"></i></a></li>
+       	<li><a href="#" id="locate">Locate <i class="fa fa-location-arrow fa-fw"></i></a></li>
+        <li><a href="#">Discover <i class="fa fa-paper-plane fa-fw"></i></a></li>
+        <li><a href="#">Time <i class="fa fa-clock-o fa-fw"></i></a></li>
+      </ul>
+    </nav>
+
+    <div id="map"></div>
+  </body>
+
+  <footer>
+  	<script src="js/city.js"></script>
+  </footer>
+</html>
