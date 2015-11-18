@@ -1,4 +1,4 @@
-L.mapbox.accessToken = 'pk.eyJ1Ijoicm1jY2xlbGxhbiIsImEiOiJ5ZTlTUEhJIn0.K39khgQhEOBxVGYPJPr2RA';
+L.mapbox.accessToken = '';
 var map = L.mapbox.map('map','rmcclellan.jk05gcji');
 L.control.fullscreen().addTo(map);
 var markers = new L.MarkerClusterGroup();
